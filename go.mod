@@ -7,7 +7,7 @@ require (
 	github.com/core-go/health v1.0.1
 	github.com/core-go/mongo v1.1.1
 	github.com/core-go/mq v0.6.10
-	github.com/core-go/nats v1.0.0
+	github.com/core-go/nats v1.0.1
 	go.mongodb.org/mongo-driver v1.16.0
 )
 
