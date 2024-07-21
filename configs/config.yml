@@ -1,0 +1,31 @@
+server:
+  name: go-subscription
+  port: 8080
+
+log:
+  level: info
+  map:
+    time: "@timestamp"
+    msg: message
+
+mongo:
+  uri: mongodb+srv://dbUser:Demoaccount1@projectdemo.g0lah.mongodb.net
+  database: masterdata
+
+subscriber:
+  subject: ah1t9hk0-default
+  header: true
+  connection:
+    url: nats://localhost:4222
+
+publisher:
+  subject: ah1t9hk0-default
+  header: true
+  connection:
+    url: nats://localhost:4222
+
+retry:
+  retry_count_name: retry
+  limit_retry: 3
+  goroutines: false
+  key: key
