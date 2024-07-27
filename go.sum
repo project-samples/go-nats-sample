@@ -1,11 +1,11 @@
 github.com/core-go/config v1.0.1 h1:ZIfpd+rfyajyePVxe7IKwGtgcJZ7lsbewTzVgfgMZMk=
 github.com/core-go/config v1.0.1/go.mod h1:fHfbCGBNq6FMQneRMtDg8tkTwut3KmmYxcjgbW37+As=
-github.com/core-go/health v1.0.1 h1:S1evXbt9ll1Kn0ZjEJqYFpAH7lnijpfakg0bOoQ3AnI=
-github.com/core-go/health v1.0.1/go.mod h1:7J9YQqCPSZW5+5BLVtZPQ/FULyk+LHZgSTnWFdL+oP0=
+github.com/core-go/health v1.2.0 h1:3jMIN7zwH1PF1yUMWJRtDV1Jmqcp3+Zn2tvkF5yeKVk=
+github.com/core-go/health v1.2.0/go.mod h1:7J9YQqCPSZW5+5BLVtZPQ/FULyk+LHZgSTnWFdL+oP0=
 github.com/core-go/mongo v1.1.1 h1:OjUbCPRnhRX0/y4D0fYuquipSD1Hi0q7BehXz9kZ/So=
 github.com/core-go/mongo v1.1.1/go.mod h1:6fNiXTXd23Qs7PyNqemrPYDeMNBDzngTQtG4IKaQxhk=
-github.com/core-go/mq v0.6.10 h1:N4Yu69isu3+tiu9V0obtfUTNgi407HPLX4mNH9lZkhI=
-github.com/core-go/mq v0.6.10/go.mod h1:PwTwWs+72JQBhJayM7OpoZFj2gw9yi9Hfr0KIhbI018=
+github.com/core-go/mq v0.7.0 h1:8LoM6b3vC7EA0xZQizwPSd1K5tCtnAiTlfsTyM1Prgo=
+github.com/core-go/mq v0.7.0/go.mod h1:PwTwWs+72JQBhJayM7OpoZFj2gw9yi9Hfr0KIhbI018=
 github.com/core-go/nats v1.0.1 h1:PSLgeqynW+psE2n6LvwYtHvtRop5QDu91x5kQgs6V0c=
 github.com/core-go/nats v1.0.1/go.mod h1:yC63qARF/ESD7WVvjiHg+EYYruV8YAT62A8LvyEeSaE=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -28,8 +28,8 @@ github.com/golang/snappy v0.0.4/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEW
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/hashicorp/hcl v1.0.0 h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4=
 github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T20WEQ=
-github.com/klauspost/compress v1.17.8 h1:YcnTYrq7MikUT7k0Yb5eceMmALQPYBW/Xltxn0NAMnU=
-github.com/klauspost/compress v1.17.8/go.mod h1:Di0epgTjJY877eYKx5yC51cX2A2Vl2ibi7bDH9ttBbw=
+github.com/klauspost/compress v1.17.9 h1:6KIumPrER1LHsvBVuDa0r5xaG0Es51mhhB9BQB2qeMA=
+github.com/klauspost/compress v1.17.9/go.mod h1:Di0epgTjJY877eYKx5yC51cX2A2Vl2ibi7bDH9ttBbw=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
 github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
 github.com/leodido/go-urn v1.4.0 h1:WT9HwE9SGECu3lg4d/dIA+jxlljEa1/ffXKmRjqdmIQ=
@@ -51,8 +51,8 @@ github.com/pelletier/go-toml/v2 v2.2.2/go.mod h1:1t835xjRzz80PqgE6HHgN2JOsmgYu/h
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=
-github.com/sagikazarmark/locafero v0.4.0 h1:HApY1R9zGo4DBgr7dqsTH/JJxLTTsOt7u6keLGt6kNQ=
-github.com/sagikazarmark/locafero v0.4.0/go.mod h1:Pe1W6UlPYUk/+wc/6KFhbORCfqzgYEpgQ3O5fPuL3H4=
+github.com/sagikazarmark/locafero v0.6.0 h1:ON7AQg37yzcRPU69mt7gwhFEBwxI6P9T4Qu3N51bwOk=
+github.com/sagikazarmark/locafero v0.6.0/go.mod h1:77OmuIc6VTraTXKXIs/uvUxKGUXjE1GbemJYHqdNjX0=
 github.com/sagikazarmark/slog-shim v0.1.0 h1:diDBnUNK9N/354PgrxMywXnAwEr1QZcOr6gto+ugjYE=
 github.com/sagikazarmark/slog-shim v0.1.0/go.mod h1:SrcSrq8aKtyuqEI1uvTDTK1arOWRIczQRv+GVI1AkeQ=
 github.com/sourcegraph/conc v0.3.0 h1:OQTbbt6P72L20UqAkXXuLOj79LfEanQ+YQFNpLA9ySo=
