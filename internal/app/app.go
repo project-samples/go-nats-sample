@@ -8,12 +8,12 @@ import (
 
 	"github.com/core-go/health"
 	hm "github.com/core-go/health/mongo"
+	nh "github.com/core-go/health/nats"
 	w "github.com/core-go/mongo/writer"
 	"github.com/core-go/mq"
 	v "github.com/core-go/mq/validator"
 	"github.com/core-go/mq/zap"
 	"github.com/core-go/nats"
-	nh "github.com/core-go/nats/health"
 )
 
 type ApplicationContext struct {
@@ -52,7 +52,7 @@ func NewApp(ctx context.Context, cfg Config) (*ApplicationContext, error) {
 		return nil, er4
 	}
 	writer := w.NewWriter[*User](db, "user")
-	han := mq.NewRetryHandlerByConfig[User](cfg.Retry, writer.Write, validator.Validate, errorHandler.RejectWithMap, nil, publisher.Publish, logError, logInfo)
+	handler := mq.NewRetryHandlerByConfig[User](cfg.Retry, writer.Write, validator.Validate, errorHandler.RejectWithMap, nil, publisher.Publish, logError, logInfo)
 	mongoChecker := hm.NewHealthChecker(client)
 	receiverChecker := nh.NewHealthChecker(cfg.Subscriber.Connection.Url, "nats_subscriber")
 	senderChecker := nh.NewHealthChecker(cfg.Publisher.Connection.Url, "nats_publisher")
@@ -61,6 +61,6 @@ func NewApp(ctx context.Context, cfg Config) (*ApplicationContext, error) {
 	return &ApplicationContext{
 		HealthHandler: healthHandler,
 		Subscribe:     subscriber.Subscribe,
-		Handle:        han.Handle,
+		Handle:        handler.Handle,
 	}, nil
 }
