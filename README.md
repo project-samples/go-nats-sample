@@ -11,4 +11,4 @@ The sample about NATS, which use these libraries:
 
 ### Similar libraries for nodejs
 We also provide these libraries to support nodejs:
-- [nats-plus](https://www.npmjs.com/package/nats-plus), to wrap and simplify [nats](https://www.npmjs.com/package/nats). The sample is at [nats-sample](https://github.com/typescript-tutorial/nats-sample)
+- [nats-plus](https://www.npmjs.com/package/nats-plus), to wrap and simplify [nats](https://www.npmjs.com/package/nats), combine with [mq-one](https://www.npmjs.com/package/mq-one) for nodejs. The sample is at [nats-sample](https://github.com/typescript-tutorial/nats-sample).
